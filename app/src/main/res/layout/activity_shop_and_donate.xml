@@ -7,8 +7,8 @@
     tools:context=".ShopAndDonate">
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="510dp"
+        android:layout_width="388dp"
+        android:layout_height="625dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -19,10 +19,9 @@
 
         <LinearLayout
             android:layout_width="180dp"
-            android:layout_height="450dp"
+            android:layout_height="510dp"
             android:layout_gravity="center"
-            android:layout_margin="13dp"
-            android:layout_marginTop="40dp"
+            android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:background="@drawable/shopborder"
             android:orientation="vertical">
@@ -31,18 +30,17 @@
                 android:id="@+id/organicBuyButton"
                 android:layout_width="150dp"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="370dp"
                 android:layout_gravity="center"
+                android:layout_marginTop="370dp"
                 android:background="@drawable/mainbutton"
-                android:text="Alışveriş Yap" />
+                android:text="ALIŞVERİŞ YAP" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="180dp"
-            android:layout_height="450dp"
+            android:layout_height="510dp"
             android:layout_gravity="center"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="13dp"
+            android:layout_marginRight="10dp"
             android:background="@drawable/shopborder"
             android:orientation="vertical">
 
@@ -51,9 +49,9 @@
                 android:layout_width="150dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:background="@drawable/mainbutton"
                 android:layout_marginTop="370dp"
-                android:text="Bağış Yap" />
+                android:background="@drawable/mainbutton"
+                android:text="BAĞIŞ YAP" />
         </LinearLayout>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
